@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.header {
+  background-color: #31393b;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+  margin: -10px;
+  padding: 16px;
+}
