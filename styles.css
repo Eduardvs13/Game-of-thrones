@@ -7,14 +7,13 @@ body {
   font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .header {
-  background-color: #160909;
+  background-color: #070518;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 32px;
   padding: 8px;
 }
-.logo {
+.logo a{
   color: #f9faf8;
   font-weight: bold;
   font-size: 24px;
@@ -25,7 +24,7 @@ body {
 }
 ul {
   display: flex;
-  gap: 16px;
+  gap: 32px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -42,14 +41,12 @@ a {
   padding: 50px;
 }
 .image-header {
-  width: 400px;
   height: 200px;
-  background-color: #5e5d60;
+
   margin-left: 20px;
   border-radius: 10px;
   min-width: 200px;
   display: flex;
-  flex-shrink: ;
   justify-content: center;
   align-items: center;
 }
@@ -59,14 +56,23 @@ h1 {
   font-weight: 900;
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .intro p {
   color: #e5e7eb;
   font-size: 18px;
   margin: 0;
+  text-align: center;
 }
 button {
-  background-color: #b3130e;
+  background-color: #161b58;
   color: #f9faf8;
   font-weight: bold;
   padding: 10px 30px;
@@ -101,7 +107,7 @@ h2 {
 .img {
   display: flex;
   background-color: white;
-  border: 4px solid #b3130e;
+  border: 4px solid #12224d;
   box-sizing: border-box;
   width: 150px;
   height: 150px;
@@ -110,7 +116,8 @@ h2 {
 .card p {
   text-align: center;
   font-size: 18px;
-  color: #5e5d60;
+  color: #010102;
+  font-weight: bold;
 }
 .content-middle {
   display: flex;
@@ -134,7 +141,7 @@ h2 {
   background-color: white;
 }
 .advertise {
-  background-color: #b3130e;
+  background-color: #161b58;
   display: flex;
   width: 800px;
   height: 100px;
@@ -154,6 +161,7 @@ h3 {
 }
 .info p {
   margin: 0;
+  text-align: center;
 }
 .footer {
   padding: 20px;
