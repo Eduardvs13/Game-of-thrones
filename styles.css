@@ -18,6 +18,9 @@ body {
   font-weight: bold;
   font-size: 24px;
 }
+.logo{
+  margin-right: 20px;
+}
 .top {
   display: flex;
   justify-content: space-evenly;
@@ -42,10 +45,8 @@ a {
 }
 .image-header {
   height: 200px;
-
   margin-left: 20px;
   border-radius: 10px;
-  min-width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +97,9 @@ h2 {
 .images {
   display: flex;
   padding-top: 10px;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
 }
 .card {
   display: flex;
